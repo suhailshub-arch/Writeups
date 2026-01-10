@@ -19,33 +19,6 @@
 
 ---
 
-## Evidence
-
-> Screenshots are redacted. Stored under `./Evidence/`.
-
-1. Website employee names (OSINT)  
-   ![Website OSINT](./Evidence/webpage_about.png)
-
-2. Kerberos user enumeration (valid users)  
-   ![Kerbrute enum](./Evidence/kerbrute_output.png)
-
-3. AS-REP roast proof (hash redacted)  
-   ![AS-REP roast](./Evidence/ASREPRoast%20Output.png)
-
-4. WinRM foothold as domain user  
-   ![WinRM foothold](./Evidence/nxc_winrm_fsmith_output.png)
-
-5. AutoLogon credential discovery
-   ![AutoLogon creds](./Evidence/AutoLogon_Creds.png)
-
-6. BloodHound path to DCSync  
-   ![BloodHound path](./Evidence/Bloodhound%20Path.png)
-
-7. DCSync proof (redacted) / DA access proof  
-   ![DCSync proof](./Evidence/secretdump_admin.png)
-
----
-
 ## Key defensive takeaways
 
 - Enforce **Kerberos pre-authentication** across the domain (prevents AS-REP roasting).
@@ -59,4 +32,3 @@
 
 - **[Sauna-Pentest-Report.pdf](./Sauna-Pentest-Report.pdf)** — Deliverable-style report.
 - **[walkthrough.md](./walkthrough.md)** — Full Walkthrough
-- `./Evidence/` — screenshots referenced above.

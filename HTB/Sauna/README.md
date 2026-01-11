@@ -1,6 +1,6 @@
 # HTB — Sauna (Retired)
 
-> **Mini Pentest Report (PDF):** [Sauna-Pentest-Report.pdf](TODO)  
+> **Mini Pentest Report (PDF)(In Progress):** [Sauna-Pentest-Report.pdf](TODO)  
 > **Full Walkthrough (technical):** [walkthrough.md](./walkthrough.md)
 
 **Attack chain:** Website OSINT → Username enumeration → AS-REP Roasting → WinRM foothold → AutoLogon creds → BloodHound path → DCSync → Domain Admin

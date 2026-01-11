@@ -26,7 +26,7 @@ What the flags mean:
 
     - Script Scanning (-sC): Runs Nmap's default scripts for more insight 
 
-- -T5: Faster timing template (a practical balance for lab environments; higher -T generally increases aggressiveness starting from 0 up to 5). 
+- -T4: Faster timing template (a practical balance for lab environments; higher -T generally increases aggressiveness starting from 0 up to 5). 
 
 | ![Nmap Scan Results](./Evidence/Nmap%20Full%20Scan.png) |
 | :--: |
@@ -196,7 +196,7 @@ Once the data is loaded, BloodHound shows that `svc_loanmgr` has the **GetChange
 
 | ![Dangerous Priveleges](./Evidence/Bloodhound%20Perms.png) |
 | :--: |
-| *Dangerous Privelegs held by "svc_loanmgr"* |
+| *Dangerous Privileges held by "svc_loanmgr"* |
 
 We can use Impacket's secretdump.py to perform the DCSync attack. 
 

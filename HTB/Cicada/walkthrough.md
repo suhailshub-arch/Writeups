@@ -210,7 +210,7 @@ Then we can download the files locally to our machine to extract the hashes usin
 | :--: |
 | *Dumped Hashes* |
 
-With the Administrator NTLM hash, we can authenticat via **Pass-the-Hash** to obtain an Administrator WinRM session and retrieve the root flag:
+With the Administrator NTLM hash, we can authenticate via **Pass-the-Hash** to obtain an Administrator WinRM session and retrieve the root flag:
 
 | ![Root flag](./Evidence/Root%20Flag.png) |
 | :--: |

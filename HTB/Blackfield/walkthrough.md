@@ -123,7 +123,7 @@ After getting a evil-winrm session going, one of the first things we should do i
 
 ![svc_backup whoami output](./Evidence/svc%20backup%20whoami.png)
 
-Backup Operators commonly implies SeBackupPrivilege, which can be abused to read files that are normally locked down—most importantly the Active Directory database (NTDS.dit). Since NTDS is typically in use, the clean approach is to create a Volume Shadow Copy and copy it out from the snapshot. First on our Kali machine, we create `viper.dsh` with the following content.
+Backup Operators commonly implies SeBackupPrivilege, which can be abused to read files that are normally locked down, most importantly the Active Directory database (NTDS.dit). Since NTDS is typically in use, the clean approach is to create a Volume Shadow Copy and copy it out from the snapshot. First on our Kali machine, we create `viper.dsh` with the following content.
 
 ```
 set context persistent nowriters
@@ -145,7 +145,7 @@ diskshadow /s viper.dsh
 ```
 DiskShadow is a built-in Windows tool for managing VSS (Volume Shadow Copy Service) snapshots.
 
-`/s viper.dsh` tells DiskShadow to run a script file (viper.dsh) containing DiskShadow commands. The point of a shadow copy is that it gives us a consistent, point-in-time snapshot of a volume—even if files on the live system are “in use” (locked). So after this runs successfully, we will end up with something like a new drive letter (e.g., X:) that represents the snapshot.
+`/s viper.dsh` tells DiskShadow to run a script file (viper.dsh) containing DiskShadow commands. The point of a shadow copy is that it gives us a consistent, point in time snapshot of a volume, even if files on the live system are "in use" (locked). So after this runs successfully, we will end up with something like a new drive letter that represents the snapshot.
 
 ```
 robocopy /b x:\windows\ntds . ntds.dit

@@ -4,11 +4,13 @@ Writeups for CTF / Machines (**retired content only**).
 
 ## Hack The Box
 
-- **[Sauna](./HTB/Sauna/)** — `Windows` `AD` `Kerberos` `DCSync` `Easy`
+- **[Sauna](./HTB/Sauna/)** - `Windows` `AD` `Kerberos` `DCSync` `Easy`
 
-- **[Cicada](./HTB/Cicada/)** — `Windows` `AD` `Credential Leak` `Dangerous Privileges` `Easy`
+- **[Cicada](./HTB/Cicada/)** - `Windows` `AD` `Credential Leak` `Dangerous Privileges` `Easy`
 
-- **[EscapeTwo](./HTB/EscapeTwo/)** — `Windows` `AD` `AD CS` `ESC4` `ACL Abuse` `MSSQL` `Easy`
+- **[EscapeTwo](./HTB/EscapeTwo/)** - `Windows` `AD` `AD CS` `ESC4` `ACL Abuse` `MSSQL` `Easy`
+
+- **[Blackfield](./HTB/Blackfield/)** - `Windows` `AD` `AS-REP Roast` `LSASS Dump` `SeBackupPrivilege` `Hard`
 
 ## Hack Smarter
 

@@ -1,6 +1,6 @@
 # Writeups
 
-Writeups for CTF / Machines (**retired content only**).
+Writeups for CTF / Machines.
 
 ## Hack The Box
 
@@ -15,3 +15,5 @@ Writeups for CTF / Machines (**retired content only**).
 ## Hack Smarter
 
 - **[Arasaka](./HackSmarter/Arasaka/)** - `Windows` `AD` `Kerberoast` `AD CS` `ESC1` `Easy`
+
+- **[Sysco](./HackSmarter/Sysco/)** - `Windows` `AD` `AS-REP Roasting` `Password Spray` `GPO Abuse` `Medium`

@@ -1,5 +1,7 @@
 # Hack Smarter Sysco Walkthrough 
 
+![Sysco](./Evidence/sysco)
+
 ## Scenario
 
 Sysco is a Managed Service Provider that has tasked you to perform an external penetration testing on their active directory domain. You must obtain initial foothold, move laterally and escalate privileges while evading Antivirus detection to obtain administrator privileges.
